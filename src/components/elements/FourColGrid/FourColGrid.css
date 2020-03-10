@@ -1,0 +1,12 @@
+
+.twm-grid-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:30px;
+}
+
+.twm-grid-element {
+  background: #353535;
+  max-height: 430px;
+  overflow: hidden;
+}

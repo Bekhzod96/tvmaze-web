@@ -1,0 +1,43 @@
+
+.home-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loadMoreBtn {
+  background: #16d47b;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.loadMoreBtn p {
+  font-family: 'Abel', sans-serif;
+  font-size:42px;
+  padding: 20px;
+}
+
+.loadMoreBtn:hover {
+  opacity: 0.8;
+}
+
+.ShowThumb img {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  opacity: 0.8;
+}
