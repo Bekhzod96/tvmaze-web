@@ -1,7 +1,8 @@
 # TvMazeApp# 
 
-## Copyrighted 
+## Final Result of main page 
 ![Preview](public/images/result_1.png?raw=true 'Title')
+## Final Result of shows page 
 ![Preview](public/images/result_2.png?raw=true 'Title')
 
 
