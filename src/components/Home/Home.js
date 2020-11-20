@@ -13,7 +13,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    const endpoint = `http://api.tvmaze.com/shows?page=0`;
+    const endpoint = `https://api.tvmaze.com/shows?page=0`;
     this.fetchItems(endpoint);
   }
 
@@ -31,9 +31,9 @@ class Home extends Component {
 
     // Checks if user input box if there is something it will search for it otherwise it shows current page
     if (searchTerm === "") {
-      endpoint = `http://api.tvmaze.com/shows?page=${currentPage}`;
+      endpoint = `https://api.tvmaze.com/shows?page=${currentPage}`;
     } else {
-      endpoint = `http://api.tvmaze.com/search/shows?q=${searchTerm}`;
+      endpoint = `https://api.tvmaze.com/search/shows?q=${searchTerm}`;
     }
     this.fetchItems(endpoint);
   }
