@@ -18,8 +18,8 @@ class Show extends Component {
   // Component will be mounted on when it loads
   componentDidMount() {
     const { showId } = this.props.match.params;
-    let showEndpoint = `http://api.tvmaze.com/shows/${showId}`;
-    let episodesEndpoint = `http://api.tvmaze.com/shows/${showId}/episodes`;
+    let showEndpoint = `https://api.tvmaze.com/shows/${showId}`;
+    let episodesEndpoint = `https://api.tvmaze.com/shows/${showId}/episodes`;
     this.fetchItems(showEndpoint);
     this.fetchEpisodes(episodesEndpoint);
 
